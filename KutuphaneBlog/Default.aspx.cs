@@ -17,6 +17,21 @@ namespace KutuphaneBlog
             var kitaplar = db.TBL_BLOG.ToList();
             Repeater1.DataSource = kitaplar;
             Repeater1.DataBind();
+
+            var kategoriler = db.TBL_KATEGORI.ToList();
+            Repeater2.DataSource = kategoriler;
+            Repeater2.DataBind();
+
+            var enson = db.TBL_BLOG.ToList();
+            Repeater3.DataSource = enson;
+            Repeater3.DataBind();
+
+
+        }
+
+        protected void Repeater1_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+
         }
     }
 }

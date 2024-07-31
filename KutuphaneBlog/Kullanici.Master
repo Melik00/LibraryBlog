@@ -44,7 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="header">  
 	 <div class="container">
 		  <div class="logo">
-			  <a href="index.html"><img src="web/images/logo.jpg" title="" /></a>
+			  <a href="Default.aspx"><img src="web/images/logo.jpg" title="" /></a>
 		  </div>
 			 <!---start-top-nav---->
 			 <div class="top-menu">
@@ -56,9 +56,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 </div>
 				  <span class="menu"> </span> 
 				   <ul>
-						<li class="active"><a href="index.html">Kitaplar</a></li>						
-						<li><a href="about.html">Hakkımızda</a></li>	
-						<li><a href="contact.html">İletişim</a></li>						
+						<li class="active"><a href="Default.aspx">Kitaplar</a></li>						
+						<li><a href="Hakkimizda.aspx">Hakkımızda</a></li>	
+						<li><a href="Iletisim.aspx">İletişim</a></li>						
 						<div class="clearfix"> </div>
 				 </ul>
 			 </div>

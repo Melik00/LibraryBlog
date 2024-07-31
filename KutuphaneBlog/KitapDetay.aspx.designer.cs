@@ -11,7 +11,7 @@ namespace KutuphaneBlog
 {
 
 
-    public partial class WebForm1
+    public partial class WebForm2
     {
 
         /// <summary>
@@ -22,15 +22,6 @@ namespace KutuphaneBlog
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater Repeater1;
-
-        /// <summary>
-        /// Repeater3 denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik olarak oluşturulan alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Repeater3;
 
         /// <summary>
         /// Repeater2 denetimi.
