@@ -23,17 +23,17 @@ namespace KutuphaneBlog
             Repeater2.DataBind();
         }
 
-        //protected void Button1_Click(object sender, EventArgs e)
-        //{
-        //    int id = Convert.ToInt32(Request.QueryString["BLOGID"]);
-        //    TBL_YORUM t = new TBL_YORUM();
-        //    t.KULLANICIAD = TextBox1.Text;
-        //    t.MAIL = TextBox2.Text;
-        //    t.YORUMICERIK = TextBox3.Text;
-        //    t.YORUMBLOG = id;
-        //    db.TBL_YORUM.Add(t);
-        //    db.SaveChanges();
-        //    Response.Redirect("KitapDetay.aspx?BLOGID"+id);
-        //}
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(Request.QueryString["BLOGID"]);
+            TBL_YORUM t = new TBL_YORUM();
+            t.KULLANICIAD = TextBox1.Text;
+            t.MAIL = TextBox2.Text;
+            t.YORUMICERIK = TextBox3.Text;
+            t.YORUMBLOG = id;
+            db.TBL_YORUM.Add(t);
+            db.SaveChanges();
+            Response.Redirect("KitapDetay.aspx?BLOGID=" + id);
+        }
     }
 }

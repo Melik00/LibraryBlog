@@ -65,7 +65,16 @@
                             </ul>
                         </ItemTemplate>
                     </asp:Repeater>
-                    
+
+                    <div class="content-form">
+                        <h3>Yorumunuzu Yazın...</h3>
+                        <form runat="server">
+                            <asp:TextBox ID="TextBox1" runat="server" placeholder="Kullanıcı Adınız" required=""></asp:TextBox>
+                            <asp:TextBox ID="TextBox2" runat="server" placeholder="Mailiniz"></asp:TextBox>
+                            <asp:TextBox ID="TextBox3" runat="server" placeholder="Yorumunuz" TextMode="MultiLine" Height="100"></asp:TextBox>
+                            <asp:Button ID="Button1" runat="server" Text="Yorum Yaz" OnClick="Button1_Click" />
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

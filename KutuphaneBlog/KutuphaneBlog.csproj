@@ -91,6 +91,14 @@
     <Content Include="KitapDetay.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="Iletisim.aspx" />
+    <Content Include="AdminSayfalari\Kitaplar.aspx" />
+    <Content Include="AdminSayfalari\YeniKitap.aspx" />
+    <Content Include="AdminSayfalari\KitapSil.aspx" />
+    <Content Include="AdminSayfalari\KitapGuncelle.aspx" />
+    <Content Include="AdminSayfalari\Yorumlar.aspx" />
+    <Content Include="AdminSayfalari\YorumSil.aspx" />
+    <Content Include="AdminSayfalari\YorumGuncelle.aspx" />
+    <Content Include="AdminSayfalari\Istatistikler.aspx" />
     <Content Include="web\about.html" />
     <Content Include="web\contact.html" />
     <Content Include="web\css\bootstrap.css" />
@@ -114,6 +122,13 @@
     <Content Include="web\Yeni Metin Belgesi.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
     <Compile Include="Entity\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -192,6 +207,62 @@
     <Compile Include="Iletisim.aspx.designer.cs">
       <DependentUpon>Iletisim.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminSayfalari\Kitaplar.aspx.cs">
+      <DependentUpon>Kitaplar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalari\Kitaplar.aspx.designer.cs">
+      <DependentUpon>Kitaplar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalari\YeniKitap.aspx.cs">
+      <DependentUpon>YeniKitap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalari\YeniKitap.aspx.designer.cs">
+      <DependentUpon>YeniKitap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalari\KitapSil.aspx.cs">
+      <DependentUpon>KitapSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalari\KitapSil.aspx.designer.cs">
+      <DependentUpon>KitapSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalari\KitapGuncelle.aspx.cs">
+      <DependentUpon>KitapGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalari\KitapGuncelle.aspx.designer.cs">
+      <DependentUpon>KitapGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalari\Yorumlar.aspx.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalari\Yorumlar.aspx.designer.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalari\YorumSil.aspx.cs">
+      <DependentUpon>YorumSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalari\YorumSil.aspx.designer.cs">
+      <DependentUpon>YorumSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalari\YorumGuncelle.aspx.cs">
+      <DependentUpon>YorumGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalari\YorumGuncelle.aspx.designer.cs">
+      <DependentUpon>YorumGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalari\Istatistikler.aspx.cs">
+      <DependentUpon>Istatistikler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalari\Istatistikler.aspx.designer.cs">
+      <DependentUpon>Istatistikler.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Kullanici.Master" />
@@ -202,6 +273,7 @@
     <Content Include="Entity\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <Content Include="Admin.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -213,6 +285,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

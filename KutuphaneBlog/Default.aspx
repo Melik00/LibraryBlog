@@ -31,7 +31,6 @@
                                 <li><a href="#"><%# Eval("BLOGBASLIK") %></a></li>
                             </ItemTemplate>
                         </asp:Repeater>
-
                     </ul>
                 </div>
                 <div class="comments">
