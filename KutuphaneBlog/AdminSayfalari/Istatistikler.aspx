@@ -14,5 +14,4 @@
             <td>En Çok Yorum Alan Kitap : <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label></td>
         </tr>
     </table>
-
 </asp:Content>

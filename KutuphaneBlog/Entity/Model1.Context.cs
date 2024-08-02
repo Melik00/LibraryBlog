@@ -34,5 +34,7 @@ namespace KutuphaneBlog.Entity
         public virtual DbSet<TBL_OGRENCILER> TBL_OGRENCILER { get; set; }
         public virtual DbSet<TBL_TUR> TBL_TUR { get; set; }
         public virtual DbSet<TBL_YORUM> TBL_YORUM { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<TBL_ADMIN> TBL_ADMIN { get; set; }
     }
 }

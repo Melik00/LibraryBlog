@@ -24,7 +24,7 @@
             </div>
             <div class="col-md-4 content-right">
                 <div class="recent">
-                    <h3>En Çok Okunanlar</h3>
+                    <h3>A-Z Kitaplar</h3>
                     <ul>
                         <asp:Repeater ID="Repeater3" runat="server">
                             <ItemTemplate>
@@ -35,11 +35,13 @@
                 </div>
                 <div class="comments">
                     <h3>En Son Yorumlar</h3>
-                    <ul>
-                        <li><a href="#">Amada Doe </a>on <a href="#">Hello World!</a></li>
-                        <li><a href="#">Peter Doe </a>on <a href="#">Photography</a></li>
-                        <li><a href="#">Steve Roberts  </a>on <a href="#">HTML5/CSS3</a></li>
-                    </ul>
+                    <asp:Repeater ID="Repeater4" runat="server">
+                        <ItemTemplate>
+                            <ul>
+                                <li><a href="#"><%# Eval("KULLANICIAD") %> - <%# Eval("YORUMICERIK") %></a></li>
+                            </ul>
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </div>
                 <div class="clearfix"></div>
                 <div class="categories">
@@ -47,7 +49,7 @@
                     <ul>
                         <asp:Repeater ID="Repeater2" runat="server">
                             <ItemTemplate>
-                                <li><a href="#"><%# Eval("KATEGORIAD") %></a></li>
+                                <li><a href="KategoriDetay.aspx?KATEGORIID=<%# Eval("KATEGORIID") %>"><%# Eval("KATEGORIAD") %></a></li>
                             </ItemTemplate>
                         </asp:Repeater>
 

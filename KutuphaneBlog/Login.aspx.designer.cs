@@ -11,43 +11,43 @@ namespace KutuphaneBlog
 {
 
 
-    public partial class WebForm1
+    public partial class Login
     {
 
         /// <summary>
-        /// Repeater1 denetimi.
+        /// TextBox1 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Repeater1;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
-        /// Repeater3 denetimi.
+        /// TextBox2 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Repeater3;
+        protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
-        /// Repeater4 denetimi.
+        /// Button1 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Repeater4;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// Repeater2 denetimi.
+        /// lblMessage denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Repeater2;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
     }
 }

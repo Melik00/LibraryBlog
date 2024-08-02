@@ -46,7 +46,7 @@
                             <ItemTemplate>
                                 <img src="<%# Eval("BLOGGORSEL") %>" alt="" style="width: 250px; height: 400px; margin-bottom: 20px" />
                                 <h3><%# Eval("BLOGBASLIK")%></h3>
-                                <p><%# Eval("BLOGICERIK")  %></p>
+                                <p><%# Eval("BLOGICERIK") %></p>
                             </ItemTemplate>
                         </asp:Repeater>
                     </div>

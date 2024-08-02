@@ -19,6 +19,8 @@
         <AssociationConnector Association="DboGemlikKitabevimModel.FK_TBL_YORUM_TBL_BLOG" ManuallyRouted="false" />
         <AssociationConnector Association="DboGemlikKitabevimModel.FK_TBL_KAYITLAR_TBL_KITAPLAR" ManuallyRouted="false" />
         <AssociationConnector Association="DboGemlikKitabevimModel.FK_TBL_KAYITLAR_TBL_OGRENCILER" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DboGemlikKitabevimModel.sysdiagrams" Width="1.5" PointX="3.375" PointY="6.75" />
+        <EntityTypeShape EntityType="DboGemlikKitabevimModel.TBL_ADMIN" Width="1.5" PointX="7.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
