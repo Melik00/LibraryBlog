@@ -6,6 +6,7 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="web/images/stack-of-books.png" type="image/jpeg">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -21,7 +22,6 @@
                 <li class="active"><a href="/AdminSayfalari/Kitaplar.aspx">Kitaplar</a></li>
                 <li><a href="/AdminSayfalari/Yorumlar.aspx">Yorumlar</a></li>
                 <li><a href="#">Sizden Gelenler</a></li>
-                <li><a href="#">Hakkımızda</a></li>
                 <li><a href="/AdminSayfalari/Istatistikler.aspx">İstatistikler</a></li>
             </ul>
         </div>
@@ -33,4 +33,3 @@
     </div>
 </body>
 </html>
-

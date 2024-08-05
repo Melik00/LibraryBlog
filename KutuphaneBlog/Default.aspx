@@ -1,8 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Kullanici.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="KutuphaneBlog.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-
     <div class="container">
         <div class="content-grids">
             <div class="col-md-8 content-main">
@@ -12,15 +10,17 @@
                             <div class="content-grid-info">
                                 <img src="<%# Eval("BLOGGORSEL") %>" alt="" />
                                 <div class="post-info">
-                                    <h4><a href="KitapDetay.aspx?BLOGID=<%# Eval("BLOGID") %>"><%# Eval("BLOGBASLIK") %></a><%# Eval("BLOGTARIH")%></h4>
-                                    <p><%# Eval("BLOGICERIK")  %></p>
-                                    <a href="single.html"><span></span>Devamını Oku</a>
+                                    <h4>
+                                        <a href="KitapDetay.aspx?BLOGID=<%# Eval("BLOGID") %>"><%# Eval("BLOGBASLIK") %></a>
+                                        <%# Eval("BLOGTARIH")%>
+                                    </h4>
+                                    <p><%# Eval("BLOGICERIK") %></p>
+                                    <a href="KitapDetay.aspx?BLOGID=<%# Eval("BLOGID") %>"><span></span>Devamını Oku</a>
                                 </div>
                             </div>
                         </div>
                     </ItemTemplate>
                 </asp:Repeater>
-
             </div>
             <div class="col-md-4 content-right">
                 <div class="recent">
@@ -52,7 +52,6 @@
                                 <li><a href="KategoriDetay.aspx?KATEGORIID=<%# Eval("KATEGORIID") %>"><%# Eval("KATEGORIAD") %></a></li>
                             </ItemTemplate>
                         </asp:Repeater>
-
                     </ul>
                 </div>
                 <div class="clearfix"></div>
@@ -60,7 +59,4 @@
             <div class="clearfix"></div>
         </div>
     </div>
-
-
-
 </asp:Content>

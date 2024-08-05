@@ -108,8 +108,12 @@
     <Content Include="web\contact.html" />
     <Content Include="web\css\bootstrap.css" />
     <Content Include="web\css\style.css" />
+    <Content Include="web\images\book.png" />
+    <Content Include="web\images\Gemlik Kitabevim Blog.jpg" />
     <Content Include="web\images\avatar.png" />
     <Content Include="web\images\food.jpg" />
+    <Content Include="web\images\GK.jpg" />
+    <Content Include="web\images\Gks.jpg" />
     <Content Include="web\images\icon3.png" />
     <Content Include="web\images\logo.jpg" />
     <Content Include="web\images\man.jpg" />
@@ -118,6 +122,7 @@
     <Content Include="web\images\post2.jpg" />
     <Content Include="web\images\post3.jpg" />
     <Content Include="web\images\search.png" />
+    <Content Include="web\images\stack-of-books.png" />
     <Content Include="web\index.html" />
     <Content Include="web\js\easing.js" />
     <Content Include="web\js\jquery.min.js" />
